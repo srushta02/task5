@@ -1,0 +1,51 @@
+📊 Additional Insights from Titanic EDA
+
+Dataset Composition
+
+Total passengers in training data: 891
+
+Features: Passenger demographics (Age, Sex), socio-economic (Pclass, Fare), family info (SibSp, Parch), embarkation point (Embarked).
+
+Survival Distribution
+
+62% did not survive, 38% survived.
+
+Shows strong class imbalance (important for machine learning later).
+
+Impact of Gender
+
+Female survival rate ~74%, Male survival rate ~19%.
+
+Strong evidence of the “Women and children first” evacuation policy.
+
+Impact of Passenger Class
+
+First class survival ~63%, Second class ~47%, Third class ~24%.
+
+Wealthier passengers had much higher chances of survival.
+
+Age Factor
+
+Children (age < 10) had higher survival probability.
+
+Most passengers were young adults (20–30 years old).
+
+Elderly passengers had lower survival chances.
+
+Fare Factor
+
+Passengers who paid higher fares tended to survive more.
+
+Indicates wealth → better cabins → quicker evacuation.
+
+Correlation Heatmap
+
+Survival is positively correlated with Fare.
+
+Negatively correlated with Pclass (higher class → better survival).
+
+Embarkation Point
+
+Majority embarked at Southampton (S).
+
+Passengers from Cherbourg (C) had slightly better survival rates.
